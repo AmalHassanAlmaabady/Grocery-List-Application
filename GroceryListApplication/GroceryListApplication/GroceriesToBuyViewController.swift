@@ -93,6 +93,11 @@ class GroceriesToBuyViewController: UIViewController, UITableViewDelegate, UITab
         let cell = tableView.dequeueReusableCell(withIdentifier: "GrocertiesToBuyTableViewCell", for: indexPath) as! GrocertiesToBuyTableViewCell
         cell.title.text = groceryItems[indexPath.row]["name"] as? String
         cell.subTitle.text = groceryItems[indexPath.row]["addByUser"] as? String
+        if groceryItems[indexPath.row]["complete"] as! Bool == false {
+            cell.accessoryType = .none
+        }else{
+            cell.accessoryType = .checkmark
+        }
         return cell
     }
 
@@ -132,6 +137,7 @@ class GroceriesToBuyViewController: UIViewController, UITableViewDelegate, UITab
                      self.isComplete = true
                      self.updateItems(item: self.groceryItems[indexPath.row]["name"] as! String, id: self.groceryItems[indexPath.row]["id"] as! String, complete: self.isComplete)
                 }
+                self.tableView.reloadData()
             }
         }
         let cancelAction = UIAlertAction(title: "Cancel", style: .cancel)

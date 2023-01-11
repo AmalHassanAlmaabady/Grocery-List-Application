@@ -74,10 +74,10 @@ class RegisterViewController: UIViewController {
                 }
             }
             let storyBoard = UIStoryboard(name: "Main", bundle: nil)
-            let groceriesToBuyVC = storyBoard.instantiateViewController(withIdentifier: "GroceriesToBuyViewController") as! GroceriesToBuyViewController
-            groceriesToBuyVC.modalPresentationStyle = .fullScreen
-            self.navigationController?.pushViewController(groceriesToBuyVC, animated: true)
-            groceriesToBuyVC.navigationItem.hidesBackButton = true
+            let logInVC = storyBoard.instantiateViewController(withIdentifier: "LogInViewController") as! LogInViewController
+            logInVC.modalPresentationStyle = .fullScreen
+            self.navigationController?.pushViewController(logInVC, animated: true)
+            logInVC.navigationItem.hidesBackButton = true
         })
     }
     
