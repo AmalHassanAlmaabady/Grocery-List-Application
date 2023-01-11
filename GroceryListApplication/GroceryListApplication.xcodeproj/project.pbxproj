@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0362ABC6296C029C00A4D1F0 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0362ABC5296C029C00A4D1F0 /* LogInViewController.swift */; };
+		0362ABC8296C045D00A4D1F0 /* RegularExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0362ABC7296C045D00A4D1F0 /* RegularExpression.swift */; };
+		0362ABCA296C065B00A4D1F0 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0362ABC9296C065B00A4D1F0 /* RegisterViewController.swift */; };
+		0362ABCC296D757600A4D1F0 /* GroceryItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0362ABCB296D757600A4D1F0 /* GroceryItems.swift */; };
+		0362ABCE296D995600A4D1F0 /* OnlineOfflineService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0362ABCD296D995600A4D1F0 /* OnlineOfflineService.swift */; };
 		03BD7243296A9BBC00431AD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BD7242296A9BBC00431AD2 /* AppDelegate.swift */; };
 		03BD7245296A9BBC00431AD2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BD7244296A9BBC00431AD2 /* SceneDelegate.swift */; };
 		03BD7247296A9BBC00431AD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BD7246296A9BBC00431AD2 /* ViewController.swift */; };
@@ -68,6 +73,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0362ABC5296C029C00A4D1F0 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		0362ABC7296C045D00A4D1F0 /* RegularExpression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularExpression.swift; sourceTree = "<group>"; };
+		0362ABC9296C065B00A4D1F0 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		0362ABCB296D757600A4D1F0 /* GroceryItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryItems.swift; sourceTree = "<group>"; };
+		0362ABCD296D995600A4D1F0 /* OnlineOfflineService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineOfflineService.swift; sourceTree = "<group>"; };
 		03BD723F296A9BBC00431AD2 /* GroceryListApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroceryListApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03BD7242296A9BBC00431AD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03BD7244296A9BBC00431AD2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -165,12 +175,17 @@
 			children = (
 				03BD72AD296AEC9A00431AD2 /* GoogleService-Info.plist */,
 				03BD7242296A9BBC00431AD2 /* AppDelegate.swift */,
+				0362ABCD296D995600A4D1F0 /* OnlineOfflineService.swift */,
 				03BD7244296A9BBC00431AD2 /* SceneDelegate.swift */,
 				03BD7246296A9BBC00431AD2 /* ViewController.swift */,
 				03BD7248296A9BBC00431AD2 /* Main.storyboard */,
 				03BD72B1296B3B4000431AD2 /* FamilyTableViewCell.swift */,
 				03BD72B3296B3B5400431AD2 /* FamilyViewController.swift */,
 				03BD72AB296ADF5400431AD2 /* GroceriesToBuyViewController.swift */,
+				0362ABC5296C029C00A4D1F0 /* LogInViewController.swift */,
+				0362ABC9296C065B00A4D1F0 /* RegisterViewController.swift */,
+				0362ABCB296D757600A4D1F0 /* GroceryItems.swift */,
+				0362ABC7296C045D00A4D1F0 /* RegularExpression.swift */,
 				03BD72AF296AF0B100431AD2 /* GrocertiesToBuyTableViewCell.swift */,
 				03BD724B296A9BBF00431AD2 /* Assets.xcassets */,
 				03BD724D296A9BBF00431AD2 /* LaunchScreen.storyboard */,
@@ -361,9 +376,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				03BD72B4296B3B5400431AD2 /* FamilyViewController.swift in Sources */,
+				0362ABCC296D757600A4D1F0 /* GroceryItems.swift in Sources */,
+				0362ABCA296C065B00A4D1F0 /* RegisterViewController.swift in Sources */,
 				03BD7247296A9BBC00431AD2 /* ViewController.swift in Sources */,
+				0362ABC8296C045D00A4D1F0 /* RegularExpression.swift in Sources */,
 				03BD72B2296B3B4000431AD2 /* FamilyTableViewCell.swift in Sources */,
+				0362ABCE296D995600A4D1F0 /* OnlineOfflineService.swift in Sources */,
 				03BD7243296A9BBC00431AD2 /* AppDelegate.swift in Sources */,
+				0362ABC6296C029C00A4D1F0 /* LogInViewController.swift in Sources */,
 				03BD72AC296ADF5400431AD2 /* GroceriesToBuyViewController.swift in Sources */,
 				03BD7245296A9BBC00431AD2 /* SceneDelegate.swift in Sources */,
 				03BD72B0296AF0B100431AD2 /* GrocertiesToBuyTableViewCell.swift in Sources */,
