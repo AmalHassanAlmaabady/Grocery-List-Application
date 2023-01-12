@@ -1,9 +1,6 @@
 //
 //  RegularExpression.swift
 //  GroceryListApplication
-//
-//  Created by Eman on 16/06/1444 AH.
-//
 
 import UIKit
 
