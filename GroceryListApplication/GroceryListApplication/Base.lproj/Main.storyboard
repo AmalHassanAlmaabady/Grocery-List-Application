@@ -145,8 +145,8 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="subTitle" destination="3dt-ui-eFj" id="LQB-Ao-9iI"/>
-                                            <outlet property="title" destination="ibV-Bm-rwh" id="lSY-Od-Rar"/>
+                                            <outlet property="subTitle" destination="3dt-ui-eFj" id="Iay-pg-NbR"/>
+                                            <outlet property="title" destination="ibV-Bm-rwh" id="tGJ-fn-N3b"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
